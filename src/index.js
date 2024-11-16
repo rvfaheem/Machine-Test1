@@ -3,11 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Header from './Components/Header';
+import Landing from './Components/Landing';
+import Services from './Components/Services';
+import Team from './Components/Team';
+import Footer from './Components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <Header />
+    <Landing />
+    <Services />
+    <Team />
+    <Footer />
   </React.StrictMode>
 );
 
